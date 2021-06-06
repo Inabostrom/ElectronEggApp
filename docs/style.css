@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.926);
+  font-family: fira-sans, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.download-egg-timer-wrapper {
+  min-width: 350px;
+  max-width: 500px;
+  min-height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 30px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2.5em;
+  color: rgb(5, 5, 5);
+}
+
+.download-button {
+  border: 2px solid #91b79b;
+  background-color: #91b79b;
+  border-radius: 3%;
+  /*height: 80px;*/
+  width: 150px;
+  text-decoration: none;
+}
+a:visited {
+  color: #040404;
+  text-decoration: none;
+}
+
+a {
+  color: #040404;
+  text-decoration: none;
+}
+
+.icon-egg {
+  height: 250px;
+  width: 200px;
+}

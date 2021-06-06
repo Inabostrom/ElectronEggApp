@@ -7,7 +7,7 @@
 		"start": "electron .",
 		"build": "electron-packager . EggTimer --out=./builds --overwrite --icon=./app_icons/egg.icns"
 	},
-	"repository": "https://github.com/olivierklaver/ElectronApp",
+	"repository": "https://github.com/Inabostrom/ElectronEggApp",
 	"author": "Ina",
 	"license": "CC0-1.0",
 	"devDependencies": {

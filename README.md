@@ -18,3 +18,4 @@ Du vil med appen være effektiv og spare tid til å gjøre noe annet i mellomtid
    ```bash
    npm run-script build
    ```
+Last ned filen på denne siden https://inabostrom.github.io/ElectronEggApp/

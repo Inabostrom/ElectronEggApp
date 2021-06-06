@@ -181,13 +181,3 @@ function showTime() {
 
   countNumberElm.textContent = minutes + ":" + sec;
 }
-
-//countTextNumberElm
-
-/*
-startButtonElm.addEventListener("click", startCountdown);
-/*function startCountdown() {
-startTimerNySideElm.classList.add("hidden");
-timeLeftelement.innerHTML = minutes + " Min";
-timeRunningElm.classList.remove("hidden");
-}*/

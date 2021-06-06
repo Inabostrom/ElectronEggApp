@@ -30,21 +30,7 @@ body {
   border-radius: 0px;
 }
 
-/*.tilbake-button {
-  flex: none;
-  border: 1px solid rgb(150, 134, 10);
-  color: rgb(148, 155, 11);
-  border-radius: 30%;
-  padding-top: 30px;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  user-select: none;
-} */
-
 .button {
-  /*border: 1px solid rgba(244, 229, 122, 0.898);*/
   color: #91b79b;
   font-weight: bold;
   font-size: 1.5em;
@@ -58,7 +44,6 @@ body {
 }
 
 .button2 {
-  /*border: 1px solid rgba(244, 229, 122, 0.898);*/
   color: #b6e1c1;
   font-weight: bold;
   font-size: 1.5em;
@@ -90,8 +75,6 @@ body {
 .sett-timer-wrapper {
   min-width: 350px;
   max-width: 500px;
-  /*min-height: 300px;*/
-  /*height: 90vh;*/
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center;
@@ -117,14 +100,6 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-/*
-.child {
-  height: 2px;
-  background: #91b79b;
-  flex: 1;
-  min-width: 25%;
-}
-*/
 
 h1 {
   padding-top: 30px;
@@ -137,10 +112,6 @@ h1 {
 .minutes {
   font-size: 1.5em;
 }
-/*
-p {
-  font-size: 1.5em;
-}*/
 
 #start-button {
   flex: none;
@@ -155,30 +126,7 @@ p {
   margin-bottom: 20px;
   cursor: pointer;
   user-select: none;
-  /*transition: all 0.15s ease;*/ /*trenger denne?*/
-  /*text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;*/ /*får ikke teksten midtstilt */
 }
-
-/*#start-button.active {
-  background-color: rgb(#91b79b);
-}*/
-/*#start-button:hover {
-  border: 4px solid #dc8432ee;
-}*/
-
-/*
-.button:hover {
-  background-image: url("../images/ny-green.svg");
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: center;
-  min-height: 80px;
-  border: 4px solid #dc8432ee;
-}*/
 
 .display-none {
   display: none;
@@ -187,26 +135,6 @@ p {
 .hidden {
   visibility: hidden;
 }
-
-/*.active {
-  background: #e9ee84e2;
-}*/
-
-/* S Button */
-
-/*.s-size {
-  background-image: url("../images/stroke5GulEgg.svg");
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: center;
-}
-
-.s-size.active {
-  background-image: url("../images/grayegg.svg");
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: center;
-}*/
 
 .s-size {
   background-image: url("../images/ny-gråGradient6medstroke075.svg");
@@ -264,14 +192,6 @@ p {
   min-height: 150px;
 }
 
-/*.selected-stroke {
-  background-image: url("../images/langStroke1-1.svg");
-  background-size: 80%;
-  background-position: center;
-  width: 80px;
-  height: 80px;
-}*/
-
 .time-running-wrapper {
   background-image: url("../images/ny-gråGradient6medstroke075.svg"); /*ny-grå.svg*/
   background-repeat: no-repeat;
@@ -279,9 +199,7 @@ p {
   background-position: center;
   min-height: 290px;
   flex: none;
-  /*border: 1px solid rgb(150, 134, 10);*/
   color: #91b79b;
-  /*border-radius: 30%;*/
   padding-top: 80px;
   width: 200px;
   height: 250px;
